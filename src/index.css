@@ -13,11 +13,74 @@ code {
 }
 
 .Header {
-list-style-type: none;
+  list-style-type: none;
 }
 
-li {
-display: inline;
-padding-left: 2em;
+.nav {
+  display: inline;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.dictionaryList {
+  list-style-type: none;
+  margin: auto;
+  padding:.5em;
+}
+
+.dictionaryListItems {
+  display: inline;
+  padding-right: 1em;
+}
+
+.journalList {
+  list-style-type: none;
+  margin: auto;
+padding: .5em;
+}
+
+.journalListItems {
+  display: inline;
+  padding-right: 1em;
+}
+
+.footerWrapper {
+margin: 15px;
+/*background-color: red;*/
+}
+
+.row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+flex-basis: 100%;
+flex: 1;
+}
+
+.blue-column {
+background-color:seashell;
+height:fit-content
+}
+
+.green-column {
+background-color:seashell;
+height: fit-content
+}
+
+.footerList {
+list-style-type: none;
 padding-right: 2em;
+}
+
+.Footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: auto;
 }
