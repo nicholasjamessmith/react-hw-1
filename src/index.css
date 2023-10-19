@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Noto+Sans+HK&family=Nunito&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 5%;
+font-family: 'Noto Sans HK', sans-serif;
+  background-color:rgb(0, 0, 0, .9);
+  color: whitesmoke
 }
 
 code {
@@ -12,8 +22,12 @@ code {
     monospace;
 }
 
-.Header {
-  list-style-type: none;
+a:link, a:visited, a:active {
+  color:cyan
+}
+
+a:hover {
+  color: orangered;
 }
 
 .nav {
@@ -22,10 +36,23 @@ code {
   padding-right: 2em;
 }
 
+.list {
+  list-style-type: none;
+  margin: auto;
+  padding: .5em;
+  /*border: 2px solid red;*/
+}
+
+.listItems {
+  display: inline;
+  padding: .5em;
+  /*border: 2px solid blue;*/
+}
+
 .dictionaryList {
   list-style-type: none;
   margin: auto;
-  padding:.5em;
+  padding: .5em;
 }
 
 .dictionaryListItems {
@@ -36,51 +63,114 @@ code {
 .journalList {
   list-style-type: none;
   margin: auto;
-padding: .5em;
+  padding: .5em;
 }
 
+.SkillsList {
+  list-style-type: none;
+}
+.bold {
+font-weight:bold;
+color: yellow;
+}
 .journalListItems {
   display: inline;
   padding-right: 1em;
 }
 
 .footerWrapper {
-margin: 15px;
-/*background-color: red;*/
+  margin: 15px;
+  /*background-color: red;*/
 }
 
 .row {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .column {
-display: flex;
-flex-direction: column;
-flex-basis: 100%;
-flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .blue-column {
-background-color:seashell;
-height:fit-content
+  /*background-color:seashell;*/
+  height: fit-content;
 }
 
 .green-column {
-background-color:seashell;
-height: fit-content
+  /*background-color:seashell;*/
+  height: fit-content;
 }
 
 .footerList {
-list-style-type: none;
-padding-right: 2em;
+  list-style-type: none;
+  padding-right: 2em;
+}
+
+.Header {
+  /*border: 1px solid red;*/
+  list-style-type: none;
+}
+
+.color1{
+color:honeydew;
+font-family: 'Permanent Marker', cursive;
+}
+
+.color2{
+color:honeydew
+}
+
+.color3 {
+color: orangered;
+}
+
+.Photo {
+  max-width: 300px;
+  max-height: 400px;
+  border-radius: .5%;
+}
+
+.Container {
+  border: 2px solid green;
+  display: flex;
+}
+
+.leftComponent {
+  /*border: 2px solid red;*/
+  /*width: 50%;*/
+}
+
+.rightComponent {
+  /*border: 2px solid blue;*/
+  justify-content: center;
+  /*width: 50%;*/
+}
+
+.Projects {
+  /*border: 1px solid red;*/
 }
 
 .Footer {
-position: absolute;
-bottom: 0;
-width: 100%;
-height: auto;
+  /*border: 1px solid blue;*/
+  /*position: absolute;*/
+  bottom: 0;
+  /*width: 80%;*/
+  height: auto;
+}
+
+.projectImg {
+  width: 200px;
+  height: auto;
+  border-radius: 3%;
+}
+
+.logo {
+width: 25%;
+height: 25%;
 }
