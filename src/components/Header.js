@@ -5,7 +5,7 @@ const Header = (props) => {
       <li className="nav"><a href="#about">About</a></li>
       <li className="nav"><a href="#skills">Skills</a></li>
       <li className="nav"><a href="#projects">Projects</a></li>
-        <li className="nav">Resume</li>
+        <li className="nav"><a href="ns_resume.pdf" target="_blank">Resume</a></li>
         <li className="nav"><a href="#contact">Contact</a></li>
       {/*<li className="nav">
         <a href="https://github.com/nicholasjamessmith">Github</a>
