@@ -17,7 +17,7 @@ const Footer = (props) => {
           <div className="column">
             <div className="green-column">
               <ul className="footerList">
-                <li><a href="mailto:njsmith6@gmail.com">E-mail</a></li>
+                <li><a href="mailto:njsmith6@gmail.com">njsmith6@gmail.com</a></li>
                 <li><a href="tel:+16315667808">(631) 566-7808</a></li>
 
                 {/*<li>Homework 3</li>
